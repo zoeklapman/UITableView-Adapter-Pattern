@@ -11,11 +11,13 @@ import UIKit
 class TableAdapter: NSObject, UITableViewDelegate, UITableViewDataSource {
     
     let table: UITableView
-    let model: TableModel
+    let service: TableService
+    let data: [Any]
     
-    init(table: UITableView, with model: TableModel) {
+    init(table: UITableView, with service: TableService) {
         self.table = table
-        self.model = model
+        self.service = service
+        self.data = service.getTableData()
         super.init()
         
         self.table.register(UINib(nibName: "CustomTableViewCell", bundle: nil), forCellReuseIdentifier: CustomTableViewCell.reuseIdentifier)
@@ -25,7 +27,7 @@ class TableAdapter: NSObject, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return model.data.count
+        return data.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -33,7 +35,7 @@ class TableAdapter: NSObject, UITableViewDelegate, UITableViewDataSource {
             return UITableViewCell()
         }
         
-        cell.cellLabel.text = String(describing: model.data[indexPath.row])
+        cell.cellLabel.text = String(describing: data[indexPath.row])
         
         return cell
     }

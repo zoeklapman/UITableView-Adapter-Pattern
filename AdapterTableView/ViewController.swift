@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.tableAdapter = TableAdapter(table: table, with: TableModel())
+        self.tableAdapter = TableAdapter(table: table, with: TableService())
     }
 }
 
