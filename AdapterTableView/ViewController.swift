@@ -8,12 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var table: UITableView!
+    
+    private var tableAdapter: TableAdapter!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.tableAdapter = TableAdapter(table: table, with: TableModel())
     }
-
-
 }
 

@@ -17,6 +17,10 @@
 		F4B36A802A47D21700C34F42 /* AdapterTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B36A7F2A47D21700C34F42 /* AdapterTableViewTests.swift */; };
 		F4B36A8A2A47D21700C34F42 /* AdapterTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B36A892A47D21700C34F42 /* AdapterTableViewUITests.swift */; };
 		F4B36A8C2A47D21700C34F42 /* AdapterTableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B36A8B2A47D21700C34F42 /* AdapterTableViewUITestsLaunchTests.swift */; };
+		F4B36A992A47D25500C34F42 /* TableDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B36A982A47D25500C34F42 /* TableDataModel.swift */; };
+		F4B36A9B2A47D2A400C34F42 /* TableAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B36A9A2A47D2A400C34F42 /* TableAdapter.swift */; };
+		F4B36AA02A47DAAE00C34F42 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B36A9E2A47DAAE00C34F42 /* CustomTableViewCell.swift */; };
+		F4B36AA12A47DAAE00C34F42 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4B36A9F2A47DAAE00C34F42 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		F4B36A852A47D21700C34F42 /* AdapterTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdapterTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B36A892A47D21700C34F42 /* AdapterTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterTableViewUITests.swift; sourceTree = "<group>"; };
 		F4B36A8B2A47D21700C34F42 /* AdapterTableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterTableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4B36A982A47D25500C34F42 /* TableDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataModel.swift; sourceTree = "<group>"; };
+		F4B36A9A2A47D2A400C34F42 /* TableAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableAdapter.swift; sourceTree = "<group>"; };
+		F4B36A9E2A47DAAE00C34F42 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		F4B36A9F2A47DAAE00C34F42 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				F4B36A732A47D21700C34F42 /* LaunchScreen.storyboard */,
 				F4B36A762A47D21700C34F42 /* Info.plist */,
 				F4B36A6E2A47D21600C34F42 /* AdapterTableView.xcdatamodeld */,
+				F4B36A982A47D25500C34F42 /* TableDataModel.swift */,
+				F4B36A9E2A47DAAE00C34F42 /* CustomTableViewCell.swift */,
+				F4B36A9F2A47DAAE00C34F42 /* CustomTableViewCell.xib */,
+				F4B36A9A2A47D2A400C34F42 /* TableAdapter.swift */,
 			);
 			path = AdapterTableView;
 			sourceTree = "<group>";
@@ -236,6 +248,7 @@
 			files = (
 				F4B36A752A47D21700C34F42 /* LaunchScreen.storyboard in Resources */,
 				F4B36A722A47D21700C34F42 /* Assets.xcassets in Resources */,
+				F4B36AA12A47DAAE00C34F42 /* CustomTableViewCell.xib in Resources */,
 				F4B36A6D2A47D21600C34F42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +276,9 @@
 			files = (
 				F4B36A6A2A47D21600C34F42 /* ViewController.swift in Sources */,
 				F4B36A702A47D21600C34F42 /* AdapterTableView.xcdatamodeld in Sources */,
+				F4B36A9B2A47D2A400C34F42 /* TableAdapter.swift in Sources */,
+				F4B36AA02A47DAAE00C34F42 /* CustomTableViewCell.swift in Sources */,
+				F4B36A992A47D25500C34F42 /* TableDataModel.swift in Sources */,
 				F4B36A662A47D21600C34F42 /* AppDelegate.swift in Sources */,
 				F4B36A682A47D21600C34F42 /* SceneDelegate.swift in Sources */,
 			);
