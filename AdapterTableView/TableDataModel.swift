@@ -7,6 +7,6 @@
 
 import Foundation
 
-class TableModel {
-    let data = ["Mock", "table", "data"]
+struct TableModel {
+    let data: [Any]
 }
