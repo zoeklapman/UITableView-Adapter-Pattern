@@ -21,7 +21,6 @@
 		F4B36A9B2A47D2A400C34F42 /* TableAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B36A9A2A47D2A400C34F42 /* TableAdapter.swift */; };
 		F4B36AA02A47DAAE00C34F42 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B36A9E2A47DAAE00C34F42 /* CustomTableViewCell.swift */; };
 		F4B36AA12A47DAAE00C34F42 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4B36A9F2A47DAAE00C34F42 /* CustomTableViewCell.xib */; };
-		F4B36AA32A47E19A00C34F42 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B36AA22A47E19A00C34F42 /* Presenter.swift */; };
 		F4B36AA52A47E1FC00C34F42 /* TableService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B36AA42A47E1FC00C34F42 /* TableService.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,7 +60,6 @@
 		F4B36A9A2A47D2A400C34F42 /* TableAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableAdapter.swift; sourceTree = "<group>"; };
 		F4B36A9E2A47DAAE00C34F42 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		F4B36A9F2A47DAAE00C34F42 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
-		F4B36AA22A47E19A00C34F42 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		F4B36AA42A47E1FC00C34F42 /* TableService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,7 +124,6 @@
 				F4B36A9E2A47DAAE00C34F42 /* CustomTableViewCell.swift */,
 				F4B36A9F2A47DAAE00C34F42 /* CustomTableViewCell.xib */,
 				F4B36A9A2A47D2A400C34F42 /* TableAdapter.swift */,
-				F4B36AA22A47E19A00C34F42 /* Presenter.swift */,
 			);
 			path = AdapterTableView;
 			sourceTree = "<group>";
@@ -282,7 +279,6 @@
 			files = (
 				F4B36A6A2A47D21600C34F42 /* ViewController.swift in Sources */,
 				F4B36A702A47D21600C34F42 /* AdapterTableView.xcdatamodeld in Sources */,
-				F4B36AA32A47E19A00C34F42 /* Presenter.swift in Sources */,
 				F4B36A9B2A47D2A400C34F42 /* TableAdapter.swift in Sources */,
 				F4B36AA52A47E1FC00C34F42 /* TableService.swift in Sources */,
 				F4B36AA02A47DAAE00C34F42 /* CustomTableViewCell.swift in Sources */,
